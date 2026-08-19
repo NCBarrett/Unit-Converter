@@ -15,9 +15,14 @@ subprojects {
     apply plugin: 'hyperskill'
     apply plugin: 'java-test-fixtures'
 
-    def userJava = Integer.parseInt(JavaVersion.current().getMajorVersion())
-    def hsJava = Integer.parseInt(hs.kotlin.javaVersion)
-    def testJava = Math.max(userJava, hsJava)
+
+//    def userJava = Integer.parseInt(JavaVersion.current().getMajorVersion())
+//    def hsJava = Integer.parseInt(hs.kotlin.javaVersion)
+//    def testJava = Math.max(userJava, hsJava)
+    // Hardcoded to 21 to prevent background system JDK 23 from hijacking the build
+    def userJava = 21
+    def hsJava = 21
+    def testJava = 21
     java.toolchain.languageVersion = JavaLanguageVersion.of(testJava)
 
     compileJava {
