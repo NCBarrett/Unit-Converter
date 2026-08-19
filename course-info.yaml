@@ -10,10 +10,6 @@ summary: "<p>When you travel, everything changes: people, languages, time zones,
 programming_language: Kotlin
 content:
   - Unit Converter
-additional_files:
-  - name: build.gradle
-    visible: true
-  - name: settings.gradle
-    visible: true
+additional_files: [ ]
 mode: Study
 yaml_version: 5

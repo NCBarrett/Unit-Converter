@@ -4,7 +4,12 @@ files:
     visible: true
     learner_created: false
   - name: test/ConverterTest.java
+    visible: true
     learner_created: false
 feedback_link: https://hyperskill.org/projects/70/stages/385/implement#comment
 status: Unchecked
+feedback:
+  message: Please update your SDK to version 23. <a href="open_module_settings">Open
+    Project Settings</a>.
+  time: "Wed, 19 Aug 2026 18:30:57 UTC"
 record: -1
